@@ -1,0 +1,25 @@
+/*---------------- INTERACTIVE ELEMENTS PAGE-------------*/
+
+
+#interactiveElements, #combinedElements{
+    padding: 5rem;
+}
+
+#interactiveElements section, #combinedElements section{
+    margin-bottom: 5rem;
+}
+
+button{
+    background-color: white;
+    padding: 1rem;
+    min-width: 10rem;
+    margin-right: 1rem;
+    box-shadow: none;
+    letter-spacing: 0.1rem;
+    text-transform: uppercase;
+}
+
+input {
+    padding: 1rem;
+    margin: 1rem;
+}

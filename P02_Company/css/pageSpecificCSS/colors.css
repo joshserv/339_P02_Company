@@ -1,0 +1,66 @@
+/*------------------COLORS----------------------*/
+
+
+/* COLORS
+:root{
+    --lightest: #FFFFFF;
+    --light:    #EEEEEE;
+    --medium:   #C2BBA7;
+    --dark:     #827E70;
+    --darker:   #33312C;
+    --darkest:  #000000;
+}
+*/
+
+
+.light{
+    background-color: #EEEEEE;
+}
+
+.medium{
+    background-color: #C2BBA7;
+}
+
+.dark{
+    background-color: #827E70;
+}
+
+.darker{
+    background-color: #33312C;
+}
+
+.darkest{
+    background-color: #000000;
+}
+
+.light-text{
+    color: white;
+}
+
+/*----------------COLORS PAGE-----------------*/
+
+#colors{
+    background-color: white;
+    padding: 5rem;
+}
+
+#color-palette{
+    height: 50vh;
+}
+
+.swatch{
+    height: 50vh;
+    width: 20%;
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    margin: 0;
+    padding: 0;
+    border: none;
+    float: left;
+}
+
+.swatch h2{
+    margin-bottom: 0;
+    padding: 2.5rem;
+}

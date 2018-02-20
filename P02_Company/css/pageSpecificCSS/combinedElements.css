@@ -1,0 +1,38 @@
+/*---------------COMBINED ELEMENTS PAGE-----------------*/
+
+article{
+    display: inline-block;
+    margin-right: 2rem;
+}
+
+article figure{
+    max-width: 20rem;
+    margin: 0;
+}
+
+figcaption{
+    margin-top: 0.5rem;
+    text-transform: uppercase;
+    letter-spacing: 0.1rem;
+
+}
+
+.price{
+    text-align: right;
+    position: relative;
+    top: -1.6rem;
+}
+
+#structure{
+    text-align: center;
+}
+
+#structure div{
+    height: 2rem;
+    background-color: white;
+    margin-bottom: 2rem;
+    display: inline-block;
+    float: left;
+    border-right: 1px solid;
+    border-left: 1px solid;
+}

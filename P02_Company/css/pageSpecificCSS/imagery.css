@@ -1,0 +1,30 @@
+/*---------------- IMAGERY PAGE-----------------*/
+
+
+#imagery-content{
+    background-color: #FFFFFF;
+}
+
+#imagery{
+    padding: 5rem;
+}
+
+#moodboard{
+    height: 50vh;
+    display: inline-flex;
+}
+
+#moodboard img{
+    max-width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+#mb1{
+    flex-grow: 2;
+    flex-shrink: 2;
+}
+#mb2, #mb3, #mb4{
+    flex-grow: 1;
+    flex-shrink: 2;
+}
