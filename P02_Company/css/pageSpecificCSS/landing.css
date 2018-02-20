@@ -1,0 +1,42 @@
+#landing{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+#landingBG{
+    z-index: -1;
+    position: absolute;
+    height: 100%;
+    object-fit: cover;
+    width: 100%;
+}
+
+#landingLogo{
+    text-align: center;
+}
+
+#landing h1{
+    margin-bottom: 0;
+}
+
+#landing h2{
+    margin-bottom: 4rem;
+}
+
+#introduction{
+    height: 100vh;
+    padding: 5rem;
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#introduction img {
+    width: 17rem;
+    margin-bottom: 2rem;
+}
+
+#introduction p{
+    max-width: 40rem;
+}

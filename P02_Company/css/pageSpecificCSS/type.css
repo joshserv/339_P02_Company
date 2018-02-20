@@ -1,0 +1,61 @@
+/*------------------ TYPE----------------------*/
+
+
+.serif{
+    font-family: serif;
+}
+
+.bold{
+    font-weight: bolder;
+}
+
+.italic{
+    font-style: italic;
+}
+
+
+/*---------------- TYPOGRAPHY PAGE-----------------*/
+
+
+
+#type{
+    padding: 5rem;
+}
+
+#type section{
+    margin-bottom: 3rem;
+}
+
+#headings{
+    margin: 6rem 0;
+}
+
+#type h2{
+    padding-bottom: 1rem;
+    border-bottom: 1px solid;
+}
+
+#type h2, #scenarios h2{
+    font-size: 2rem;
+}
+
+td{
+    min-width: 12rem;
+    vertical-align: top;
+    padding-bottom: 2rem;
+}
+
+.col-2:first-of-type{
+    width: 50%;
+    float: left;
+    padding-right: 4rem;
+}
+
+#times{
+    font-family: serif;
+    margin-top: 10rem;
+}
+
+#gotham{
+    font-family: sans-serif;
+}
