@@ -1,0 +1,53 @@
+@import url("navigation.css");
+
+@font-face {
+    font-family: Source Sans Pro;
+    src: url("css/fonts/Source-Sans-Pro.otf");
+
+    font-family: Chronicle;
+    src: url("css/fonts/Chronicle_Display_Roman.otf");
+
+}
+
+
+body {
+    font-family: Source Sans Pro;
+    overflow: hidden;
+}
+
+section {
+    margin-bottom: 2em;
+}
+
+h2 {
+    font-family: Chronicle;
+    letter-spacing: 0.2em;
+}
+
+h3 {
+    font-family: Chronicle;
+}
+
+/*---------- Top Logo --------*/
+
+.logo {
+    position: fixed;
+    float: left;
+}
+
+.logo img {
+    display: inline-block;
+    width: 7em;
+    margin-left: 8em;
+    margin-top: 2em;
+}
+
+/*
+
+------------- Content --------------*/
+
+.content-container {
+    padding-top: 5em;
+    text-align: center;
+
+}
