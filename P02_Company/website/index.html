@@ -3,37 +3,82 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>Project 2 Company</title>
+    <title>OGLE</title>
 
     <link rel="stylesheet" href="../css/main.css">
-
+    <link rel="shortcut icon" type="image/png" href="../assets/img/ogle-favicon.png"/>
 </head>
 
 <body>
 
 
-    <div class="logo">
-        <img src="../assets/img/logo.png" alt="logo">
-    </div>
+    <header>
+        <a href="index.html">
+            <img id="main-logo" src="../assets/img/ogle-logo-full-dark.png" alt="Ogle Logo">
+        </a>
 
-    <nav class="main-nav">
-        <ul>
-            <li><a href="index.html"> HOME </a></li>
-            <li><a href="shop.html"> SHOP </a></li>
-            <li><a href="lookbook.html"> LOOKBOOK </a></li>
-            <li><a href="our-story.html"> OUR STORY </a></li>
-            <li><a href="contact.html"> CONTACT </a></li>
-        </ul>
-    </nav>
+        <nav id="main-nav">
+            <ul>
+                <li><a href="shop.html"> Shop </a></li>
+                <li><a href="lookbook.html"> Lookbook </a></li>
+                <li><a href="our-story.html"> Our Story </a></li>
+                <li><a href="contact.html"> Contact </a></li>
+                <li id="cart-item"><a href="cart.html"><img src="../assets/img/shopping-cart.png" alt="Shopping Cart" id="cart"/></a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <section>
+        <img src="../assets/img/landing1.jpg" id="hero"/>
+    </section>
+    
+        <section class="feature-information">
+            <h2> Our Story</h2>
+            <p>Welcome to the club. Dedicated to the sophisticated gangsters and the radical gentlemen, Ogle is the finest collection of men's eyewear. Drawing from icons from the likes of Kanye West, David Beckham, and Johnny Depp, we at the club pay homage to the real originals, while paving our own appearances, careers, and lifestyle. Characterized by the gritty elegance of each pair of "OGs" /ō'jēz/, our lenses speak to the confident and estimable men behind them.</p>
+            <a href="our-story.html" class="simple-cta">Read More</a>
+    </section>
+    
+    <section id="featured-products" class="flex-container full-bleed">
+        <div class="flex-container vertical">
+            <figure class="flex-item-33">
+                <a href="shop.html">
+                    <img src="../assets/catalogue-images/sun/set2/sun-set-2.1.jpg"/>
+                </a>
+            </figure>
+            <figure class="flex-item-66">
+                <a href="shop.html">
+                    <img src="../assets/img/model1.jpg"/>
+                </a>
+            </figure>
+        </div>
+        <div class="flex-container vertical">
+            <figure class="flex-item-66">
+                <a href="shop.html">
+                    <img src="../assets/img/model2.jpg"/>
+                </a>
+            </figure>
+            <figure class="flex-item-33">
+                <a href="shop.html">
+                    <img src="../assets/catalogue-images/sun/set4/sun-set-4.2.jpg">
+                </a>
+            </figure>
+        </div>
+    </section>
 
-    <div class="content-container">
-        <h2> Our Story</h2>
-        <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
-    </div>
 
-
-
-
+    <footer>
+        <div id="subscription-cta">
+            <h2>Join the Club</h2>
+            <p>Sign up with your email to recieve news and updates </p>
+            <input id="email" type="text" name="email">
+            <button type="submit" value="Submit">Submit</button>
+        </div>
+        <div id="instagram">
+            <h2>Follow Us @Ogle</h2>
+            <img src="../assets/img/moodboard1.jpg"/>
+            <img src="../assets/img/moodboard2.jpg"/>
+        </div>
+    </footer>
 </body>
 
 </html>

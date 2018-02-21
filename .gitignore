@@ -1,6 +1,9 @@
 # Object file
 *.o
-*.DS_Store
 
 # Ada Library Information
 *.ali
+
+#OS generated files
+.DS_Store
+.DS_Store?

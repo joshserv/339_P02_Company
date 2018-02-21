@@ -3,31 +3,97 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>Project 2 Company</title>
+    <title>OGLE</title>
 
     <link rel="stylesheet" href="../css/main.css">
+    <link rel="shortcut icon" type="image/png" href="../assets/img/ogle-favicon.png"/>
 </head>
 
 <body>
 
-    <section>
 
-        <div class="logo">
-            <img src="../assets/img/logo.png" alt="logo">
-        </div>
+    <header>
+        <a href="index.html">
+            <img id="main-logo" src="../assets/img/ogle-logo-full-dark.png" alt="Ogle Logo">
+        </a>
 
-        <nav class="main-nav">
+        <nav id="main-nav">
             <ul>
-                <li><a href="index.html"> HOME </a></li>
-                <li><a href="shop.html"> SHOP </a></li>
-                <li><a href="lookbook.html"> LOOKBOOK </a></li>
-                <li><a href="our-story.html"> OUR STORY </a></li>
-                <li><a href="contact.html"> CONTACT </a></li>
+                <li><a href="shop.html"> Shop </a></li>
+                <li><a href="lookbook.html"> Lookbook </a></li>
+                <li><a href="our-story.html"> Our Story </a></li>
+                <li><a href="contact.html"> Contact </a></li>
+                <li id="cart-item"><a href="cart.html"><img src="../assets/img/shopping-cart.png" alt="Shopping Cart" id="cart"/></a></li>
             </ul>
         </nav>
+    </header>
+    
+    <section id="shipping" class="full-bleed">
+        <div>
+            <h2>Domestic Shipping</h2>
+            <p>Nulla vitae elit libero, a pharetra augue. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Vestibulum id ligula porta felis euismod semper. Donec id elit non mi porta gravida at eget metus. Nullam quis risus eget urna mollis ornare vel eu leo. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sed diam eget risus varius blandit sit amet non magna.</p>
+        </div>
+        <div>
+            <h2>International Shipping</h2>
+            <p>Nulla vitae elit libero, a pharetra augue. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Vestibulum id ligula porta felis euismod semper. Donec id elit non mi porta gravida at eget metus. Nullam quis risus eget urna mollis ornare vel eu leo. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sed diam eget risus varius blandit sit amet non magna.</p>
+        </div>
+    </section>
+    
+    <section id="contact">
+        <div id="contact-information">
+            <div id="locations">
+                <h2>Locations</h2>
+                <div id="location-information">
+                    <div class="location">
+                        <h3>Gastown</h3>
+                        <ul>
+                            <li>219 Abbott Street</li>
+                            <li>M-F 10AM - 8PM</li>
+                            <li>Weekends 10AM - 6PM</li>
+                            <li>604.282.2993</li>
+                        </ul>
+                    </div>
+                    <div class="location">
+                        <h3>Yaletown</h3>
+                        <ul>
+                            <li>1175 Mainland St</li>
+                            <li>M-F 10AM - 8PM</li>
+                            <li>Weekends 10AM - 6PM</li>
+                            <li>604.394.2394</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div id="customer-service">
+                <h2>Customer Service</h2>
+                <h3>1.800.294.OGLE</h3>
+            </div>
+        </div>
+        <form id="contact-form">
+            <h2>Contact</h2>
+            <form>
+                <input placeholder="First Name">
+                <input placeholder="Last Name">
+                <input placeholder="Email">
+                <textarea placeholder="Message"></textarea>
+            </form>
+        </form>
     </section>
 
 
+    <footer>
+        <div id="subscription-cta">
+            <h2>Join the Club</h2>
+            <p>Sign up with your email to recieve news and updates </p>
+            <input id="email" type="text" name="email">
+            <button type="submit" value="Submit">Submit</button>
+        </div>
+        <div id="instagram">
+            <h2>Follow Us @Ogle</h2>
+            <img src="../assets/img/moodboard1.jpg"/>
+            <img src="../assets/img/moodboard2.jpg"/>
+        </div>
+    </footer>
 </body>
 
 </html>

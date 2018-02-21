@@ -3,33 +3,109 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>Project 2 Company</title>
+    <title>Ogle</title>
 
     <link rel="stylesheet" href="../css/main.css">
-
+    <link rel="shortcut icon" type="image/png" href="../assets/img/ogle-favicon.png"/>
 </head>
 
 <body>
 
-    <section>
+    <header>
+        <a href="index.html">
+            <img id="main-logo" src="../assets/img/ogle-logo-full-dark.png" alt="Ogle Logo">
+        </a>
 
-        <div class="logo">
-            <img src="../assets/img/logo.png" alt="logo">
-        </div>
-
-        <nav class="main-nav">
+        <nav id="main-nav">
             <ul>
-                <li><a href="index.html"> HOME </a></li>
-                <li><a href="shop.html"> SHOP </a></li>
-                <li><a href="lookbook.html"> LOOKBOOK </a></li>
-                <li><a href="our-story.html"> OUR STORY </a></li>
-                <li><a href="contact.html"> CONTACT </a></li>
+                <li><a href="shop.html"> Shop </a></li>
+                <li><a href="lookbook.html"> Lookbook </a></li>
+                <li><a href="our-story.html"> Our Story </a></li>
+                <li><a href="contact.html"> Contact </a></li>
+                <li id="cart-item"><a href="cart.html"><img src="../assets/img/shopping-cart.png" alt="Shopping Cart" id="cart"/></a></li>
             </ul>
         </nav>
+    </header>
 
+    <section>
+        <nav id="filter">
+            <ul>
+                <li>New Arrivals</li>
+                <li>Optical</li>
+                <li>Sunglasses</li>
+            </ul>
+        </nav>
     </section>
+        <section id="product-listings">
+            <figure class="product-listing">
+                <a href="item.html">
+                    <image src="../assets/catalogue-images/optical/set1/optical-set-1.0jpg.jpg" alt="Ogle Optical Glasses 001"/>
+                    <figcaption>001<br>$150</figcaption>
+                </a>
+            </figure>
+            <figure class="product-listing">
+                <a href="item.html">
+                    <image src="../assets/catalogue-images/optical/set3/optical-set-3.0.jpg" alt="Ogle Optical Glasses 001"/>
+                    <figcaption>002<br>$150</figcaption>
+                </a>
+            </figure>
+            <figure class="product-listing">
+                <a href="item.html">
+                    <image src="../assets/catalogue-images/optical/set4/optical-set-4.0.jpg" alt="Ogle Optical Glasses 001"/>
+                    <figcaption>003<br>$150</figcaption>
+                </a>
+            </figure>
+            <figure class="product-listing">
+                <a href="item.html">
+                    <image src="../assets/catalogue-images/optical/set5/optical-set-5.0.jpg" alt="Ogle Optical Glasses 004"/>
+                    <figcaption>004<br>$150</figcaption>
+                </a>
+            </figure>
+            <figure class="product-listing">
+                <a href="item.html">
+                    <image src="../assets/catalogue-images/optical/set6/optical-set-6.jpg"/>
+                    <figcaption>005<br>$150</figcaption>
+                </a>
+            </figure>
+            <figure class="product-listing">
+                <a href="item.html">
+                    <image src="../assets/catalogue-images/optical/set4/optical-set-4.0.jpg" alt="Ogle Optical Glasses 006"/>
+                    <figcaption>006<br>$150</figcaption>
+                </a>
+            </figure>
+                        <figure class="product-listing">
+                <a href="item.html">
+                    <image src="../assets/catalogue-images/optical/set7/optical-set-7.0.jpg" alt="Ogle Optical Glasses 007"/>
+                    <figcaption>007<br>$150</figcaption>
+                </a>
+            </figure>
+            <figure class="product-listing">
+                <a href="item.html">
+                    <image src="../assets/catalogue-images/optical/set3/optical-set-3.0.jpg" alt="Ogle Optical Glasses 008"/>
+                    <figcaption>008<br>$150</figcaption>
+                </a>
+            </figure>
+            <figure class="product-listing">
+                <a href="item.html">
+                    <image src="../assets/catalogue-images/optical/set1/optical-set-1.0jpg.jpg" alt="Ogle Optical Glasses 009"/>
+                    <figcaption>009<br>$150</figcaption>
+                </a>
+            </figure>
+        </section>
 
-
+    <footer>
+        <div id="subscription-cta">
+            <h2>Join the Club</h2>
+            <p>Sign up with your email to recieve news and updates </p>
+            <input id="email" type="text" name="email">
+            <button type="submit" value="Submit">Submit</button>
+        </div>
+        <div id="instagram">
+            <h2>Follow Us @Ogle</h2>
+            <img src="../assets/img/moodboard1.jpg"/>
+            <img src="../assets/img/moodboard2.jpg"/>
+        </div>
+    </footer>
 </body>
 
 </html>
