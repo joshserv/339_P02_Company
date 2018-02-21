@@ -9,8 +9,10 @@
 @import url("pageSpecificCSS/landing.css");
 @import url("pageSpecificCSS/scenarios.css");
 @import url("pageSpecificCSS/type.css");
+@import url("websitePageCSS/item-page.css");
 
 /*FONTS*/
+
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700');
 
 
@@ -24,9 +26,7 @@ TABLE OF CONTENTS
 
 */
 
-
 /*------------1. BASIC HTML ELEMENTS-------------*/
-
 
 * {
     box-sizing: border-box;
@@ -39,14 +39,15 @@ body {
 }
 
 
-h1, h2{
+h1,
+h2 {
     font-family: serif;
     margin-top: 0;
     letter-spacing: 0.1rem;
 }
 
 
-h1{
+h1 {
     text-transform: uppercase;
     margin-bottom: 2rem;
     font-size: 5rem;
@@ -54,18 +55,18 @@ h1{
     letter-spacing: 0.3rem;
 }
 
-h2{
+h2 {
     font-weight: 400;
 }
 
-h3{
+h3 {
     font-family: serif;
     text-transform: uppercase;
     font-weight: 300;
     letter-spacing: 0.1rem;
 }
 
-p{
+p {
     font-family: 'Open Sans', sans-serif;
     line-height: 1.5rem;
     margin: 0;
@@ -90,32 +91,32 @@ a:hover {
     margin: 5rem 0;
 }
 
-ol{
+ol {
     padding-left: 1rem;
     margin-bottom: 3rem;
 }
 
-ol li{
+ol li {
     margin-bottom: 0.5rem;
 }
 
-ul li{
+ul li {
     list-style-type: none;
     margin-bottom: 0.5rem;
 }
 
-ol li{
+ol li {
     margin-left: 2.5rem;
     margin-bottom: 0.5rem;
 }
 
-iframe{
+iframe {
     max-width: 100%;
     margin: 2rem 0;
 }
 
 
-img{
+img {
     max-width: 100%;
 }
 
@@ -129,38 +130,56 @@ aside {
     z-index: 1;
     top: 0;
     left: 0;
-    -webkit-box-shadow: 6px 0px 20px -8px rgba(0,0,0,0.75);
-    -moz-box-shadow: 6px 0px 20px -8px rgba(0,0,0,0.75);
-    box-shadow: 6px 0px 20px -8px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 6px 0px 20px -8px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 6px 0px 20px -8px rgba(0, 0, 0, 0.75);
+    box-shadow: 6px 0px 20px -8px rgba(0, 0, 0, 0.75);
 }
 
 
 /*------------2. PAGE BUILDING BLOCKS-------------*/
 
-.col-12 {width: 100%;}
-.col-8  {width: 66.66%;}
-.col-6  {width: 50%;}
-.col-3  {width: 25%;}
-.col-1  {width: 8.33%;}
-.col-4  {width: 33.33%;}
+.col-12 {
+    width: 100%;
+}
 
-.content-container{
+.col-8 {
+    width: 66.66%;
+}
+
+.col-6 {
+    width: 50%;
+}
+
+.col-3 {
+    width: 25%;
+}
+
+.col-1 {
+    width: 8.33%;
+}
+
+.col-4 {
+    width: 33.33%;
+}
+
+.content-container {
     width: 100%;
     min-height: 100vh;
     padding-left: 16rem;
 }
 
-.content{
+.content {
     width: 100%;
     min-height: 100vh;
 }
 
-.invert{
-    -webkit-filter: invert(100%); /* Safari */
+.invert {
+    -webkit-filter: invert(100%);
+    /* Safari */
     filter: invert(100%);
 }
 
-.code{
+.code {
     background-color: white;
     padding: 2rem;
     margin-top: 1rem;
@@ -168,7 +187,10 @@ aside {
 
 /*------------3. HEADER-------------*/
 
-section, header, #subscription-cta, #instagram {
+section,
+header,
+#subscription-cta,
+#instagram {
     padding: 1rem;
 }
 
@@ -181,8 +203,9 @@ header {
     clear: both;
 }
 
-header:after, footer:after {
-    content: " "; 
+header:after,
+footer:after {
+    content: " ";
     display: block;
     clear: both;
 }
@@ -255,7 +278,8 @@ footer {
     height: 80vh;
 }
 
-#story img, #story div {
+#story img,
+#story div {
     width: 50%;
     padding: 1rem;
 }
@@ -273,18 +297,21 @@ footer {
 
 /*------------ CONTACT-------------*/
 
-#shipping, #contact {
+#shipping,
+#contact {
     display: flex;
     padding: 5rem 0;
     border-bottom: 1px solid;
 }
 
-#shipping div, #contact-information, #contact-form {
+#shipping div,
+#contact-information,
+#contact-form {
     width: 50%;
     padding: 1rem;
 }
 
-#locations{
+#locations {
     margin-bottom: 3rem;
 }
 
@@ -297,7 +324,7 @@ footer {
     flex-grow: 1;
 }
 
-#contact-form{
+#contact-form {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -350,7 +377,7 @@ textarea {
 }
 
 #featured-products:after {
-    content: " "; 
+    content: " ";
     display: block;
     clear: both;
 }
@@ -370,14 +397,14 @@ textarea {
 
 /*PRODUCT LISTINGS*/
 
-#product-listings{
+#product-listings {
     display: flex;
     flex-wrap: wrap;
     float: left;
 }
 
 #product-listings:after {
-    content: " "; 
+    content: " ";
     display: block;
     clear: both;
 }
@@ -404,7 +431,7 @@ textarea {
     padding-left: 0;
 }
 
-#filter li{
+#filter li {
     float: left;
     margin: 0 2rem;
 }
@@ -413,20 +440,21 @@ textarea {
     .flex-container {
         flex-direction: column;
     }
-    
+
     #featured-products div {
         width: 100%;
     }
-    
+
     footer div {
         width: 100%;
     }
-    
+
     #story {
         flex-direction: column;
     }
-    
-    #story img, #story div {
+
+    #story img,
+    #story div {
         width: 100%;
     }
 }
@@ -435,7 +463,6 @@ textarea {
 .vertical:nth-last-of-type(1) {flex-grow: 1;}
 .vertical:nth-last-of-type(2) {flex-grow: 2;}
 */
-
 
 /*
 #aside-logo {
