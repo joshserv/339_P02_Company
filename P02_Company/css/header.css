@@ -1,0 +1,72 @@
+/*------------3. HEADER-------------*/
+
+section,
+header,
+#subscription-cta,
+#instagram {
+    padding: 1rem;
+}
+
+.full-bleed {
+    padding: 0;
+}
+
+header {
+    padding-bottom: 2rem;
+    clear: both;
+}
+
+header:after,
+footer:after {
+    content: " ";
+    display: block;
+    clear: both;
+}
+
+#main-logo {
+    width: 5rem;
+    float: left;
+}
+
+#main-nav ul {
+    padding-left: 0;
+    margin: 0;
+    clear: none;
+    float: right;
+}
+
+#main-nav li {
+    display: inline-block;
+    margin-left: 3rem;
+    margin-bottom: 0;
+}
+
+#main-nav a {
+    font-family: 'Open Sans', sans-serif;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 0.9rem;
+    font-weight: 300;
+    letter-spacing: 0.05rem;
+    border-bottom: none;
+}
+
+#main-nav a:hover {
+    border-bottom: 1px solid;
+}
+
+#cart-item {
+    margin-bottom: 0;
+    display: inline-block;
+    float: right;
+}
+
+#cart {
+    height: 1.2rem;
+}
+
+#hero {
+    height: 90vh;
+    width: 100%;
+    object-fit: cover;
+}

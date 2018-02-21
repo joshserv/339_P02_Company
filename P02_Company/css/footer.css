@@ -1,0 +1,23 @@
+/*------------ FOOTER-------------*/
+
+footer div {
+    width: 50%;
+    float: left;
+}
+
+footer {
+    padding: 10rem 0rem 5rem 0rem;
+}
+
+#instagram img {
+    width: 50%;
+    height: 10rem;
+    object-fit: cover;
+    float: left;
+}
+
+@media screen and (orientation: portrait) {
+    footer div {
+        width: 100%;
+    }
+}

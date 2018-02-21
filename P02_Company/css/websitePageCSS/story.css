@@ -1,0 +1,42 @@
+/*------------ OUR STORY-------------*/
+
+#story {
+    display: flex;
+    height: 80vh;
+}
+
+#story img,
+#story div {
+    width: 50%;
+    padding: 1rem;
+}
+
+#story img {
+    object-fit: cover;
+}
+
+#story div {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+@media screen and (orientation: portrait) {
+    .flex-container {
+        flex-direction: column;
+    }
+
+    #featured-products div {
+        width: 100%;
+    }
+
+    #story {
+        flex-direction: column;
+    }
+
+    #story img,
+    #story div {
+        width: 100%;
+    }
+}
