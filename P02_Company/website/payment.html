@@ -25,41 +25,62 @@
                 <li id="cart-item"><a href="cart.html"><img src="../assets/img/shopping-cart.png" alt="Shopping Cart" id="cart"/></a></li>
             </ul>
         </nav>
-
-        <h2 id="checkout-heading">Checkout</h2>
-
-        <div class="checkout-container">
-            <div class="payment-info">
-                <h3>CONTACT INFORMATION</h3>
-                <form class="text-field">
-                    <p> <label class="text-field-item">First Name</label>
-                        <input class="text-field-input" name="first" type="text" placeholder="John"></p>
-
-                    <p><label>Last Name</label>
-                        <input class="text-field-input" name="last" type="text" placeholder="Doe"></p>
-
-                    <p><label>Address</label>
-                        <input class="text-field-input" name="last" type="text" placeholder="Doe"></p>
-
-                    <p><label>City</label>
-                        <input class="text-field-input" name="last" type="text" placeholder="Doe"></p>
-
-                    <p><label>Province</label>
-                        <input class="text-field-input" name="last" type="text" placeholder="Doe"></p>
-
-                    <p><label>Postal Code</label>
-                        <input class="text-field-input" name="last" type="text" placeholder="Doe"></p>
-                </form>
-            </div>
-            <div class="order-summary">
-                <h3> SUMMARY</h3>
-                <div id="product-overview">
-                    <img src="../assets/catalogue-images/optical/set3/optical-set-3.0.jpg" alt="Ogle Optical Glasses 001" />
-                    <h4> OPTICAL 002 <br> $125.00 </h4>
-
-                </div>
-<!--            <div id="product-price"-->
-            </div>
-        </div>
-
     </header>
+    <h2 id="checkout-heading">Checkout</h2>
+
+    <div class="checkout-container">
+        <div class="payment-info">
+            <h3>CONTACT INFORMATION</h3>
+            <form class="text-field">
+                <p> <label class="text-field-item">First Name</label>
+                    <input class="text-field-input" name="first" type="text" placeholder="John"></p>
+
+                <p><label>Last Name</label>
+                    <input class="text-field-input" name="last" type="text" placeholder="Doe"></p>
+
+                <p><label>Address</label>
+                    <input class="text-field-input" name="address" type="text"></p>
+
+                <p><label>City</label>
+                    <input class="text-field-input" name="city" type="text"></p>
+
+                <p><label>Province</label>
+                    <input class="text-field-input" name="province" type="text"></p>
+
+                <p><label>Postal Code</label>
+                    <input class="text-field-input" name="postal" type="text"></p>
+                <p><label>Phone Number</label>
+                    <input class="text-field-input" name="phone" type="text"></p>
+            </form>
+        </div>
+        <div class="order-summary">
+            <h3> SUMMARY</h3>
+            <div id="product-overview">
+                <img src="../assets/catalogue-images/optical/set3/optical-set-3.0.jpg" alt="Ogle Optical Glasses 001" />
+                <h4> OPTICAL 002 <br> $125.00 </h4>
+
+                <h3> SUBTOTAL</h3>
+                <h4> $125.00</h4>
+
+            </div>
+            <a href="shipping-info.html">CONTINUE</a>
+            <!--            <div id="product-price"-->
+        </div>
+    </div>
+
+    <footer>
+        <div id="subscription-cta">
+            <h2>Join the Club</h2>
+            <p>Sign up with your email to recieve news and updates </p>
+            <input id="email" type="text" name="email">
+            <button type="submit" value="Submit">Submit</button>
+        </div>
+        <div id="instagram">
+            <h2>Follow Us @Ogle</h2>
+            <img src="../assets/img/moodboard1.jpg" alt="moodboard" />
+            <img src="../assets/img/moodboard2.jpg" alt="moodboard" />
+        </div>
+    </footer>
+
+</body>
+</html>

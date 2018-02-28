@@ -1,0 +1,121 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Ogle</title>
+
+    <link rel="stylesheet" href="../css/main.css">
+    <link rel="shortcut icon" type="image/png" href="../assets/img/ogle-favicon.png" />
+</head>
+
+<body>
+
+    <header>
+        <a href="index.html">
+            <img id="main-logo" src="../assets/img/ogle-logo-full-dark.png" alt="Ogle Logo">
+        </a>
+
+        <nav id="main-nav">
+            <ul>
+                <li><a href="shop.html"> Shop </a></li>
+                <li><a href="lookbook.html"> Lookbook </a></li>
+                <li><a href="our-story.html"> Our Story </a></li>
+                <li><a href="contact.html"> Contact </a></li>
+                <li id="cart-item"><a href="cart.html"><img src="../assets/img/shopping-cart.png" alt="Shopping Cart" id="cart"/></a></li>
+            </ul>
+        </nav>
+    </header>
+    <h2 id="checkout-heading">Checkout</h2>
+    <!-------CODE BASE OFF OF https://www.w3schools.com/howto/howto_css_checkout_form.asp-->
+    <div class="row">
+        <div class="col-75">
+            <div class="checkout-container">
+                <form action="/action_page.php">
+
+                    <div class="row">
+                        <div class="col-50">
+                            <h3>Billing Address</h3>
+                            <label for="fname"> Full Name</label>
+                            <input type="text" id="fname" name="firstname" placeholder="John M. Doe">
+                            <label for="email"> Email</label>
+                            <input type="text" id="email1" name="email" placeholder="john@example.com">
+                            <label for="adr">Address</label>
+                            <input type="text" id="adr" name="address" placeholder="542 W. 15th Street">
+                            <label for="city"> City</label>
+                            <input type="text" id="city" name="city" placeholder="Vancouver">
+
+                            <div class="row">
+                                <div class="col-50">
+                                    <label for="state">Province</label>
+                                    <input type="text" id="state" name="state" placeholder="BC">
+                                </div>
+                                <div class="col-50">
+                                    <label for="zip">Zip</label>
+                                    <input type="text" id="zip" name="zip" placeholder="10001">
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-50">
+                            <h3>Payment</h3>
+                            <label for="cname">Cardholder name</label>
+                            <input type="text" id="cname" name="cardname" placeholder="John More Doe">
+                            <label for="ccnum">Credit card number</label>
+                            <input type="text" id="ccnum" name="cardnumber" placeholder="1111-2222-3333-4444">
+                            <label for="expmonth">Exp Month</label>
+                            <input type="text" id="expmonth" name="expmonth" placeholder="September">
+                            <div class="row">
+                                <div class="col-50">
+                                    <label for="expyear">Exp Year</label>
+                                    <input type="text" id="expyear" name="expyear" placeholder="2018">
+                                </div>
+                                <div class="col-50">
+                                    <label for="cvv">CVV</label>
+                                    <input type="text" id="cvv" name="cvv" placeholder="352">
+                                </div>
+                            </div>
+                            <label>
+          <input type="checkbox" checked="checked" name="sameadr"> Shipping address same as billing
+        </label>
+
+                        </div>
+
+                    </div>
+
+                </form>
+            </div>
+        </div>
+        <div class="col-25">
+
+            <div class="cart-summary">
+                <h3>Cart</h3>
+                <img src="../assets/catalogue-images/optical/set3/optical-set-3.0.jpg" alt="Ogle Optical Glasses 001" />
+                <h4>Optical 001
+                    <br> $125.00 </h4>
+
+                <h3> TOTAL </h3>
+                <h4> $125.00</h4>
+
+                <div class="checkout-btn">
+                    <a href="confirmation-page.html">CHECKOUT</a>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <footer>
+        <div id="subscription-cta">
+            <h2>Join the Club</h2>
+            <p>Sign up with your email to recieve news and updates </p>
+            <input id="email" type="text" name="email">
+            <button type="submit" value="Submit">Submit</button>
+        </div>
+        <div id="instagram">
+            <h2>Follow Us @Ogle</h2>
+            <img src="../assets/img/moodboard1.jpg" alt="moodboard" />
+            <img src="../assets/img/moodboard2.jpg" alt="moodboard" />
+        </div>
+    </footer>
+</body>
