@@ -33,10 +33,12 @@
 
     #story {
         flex-direction: column;
+        height: auto;
     }
 
     #story img,
     #story div {
         width: 100%;
+        padding: 1rem 0;
     }
 }

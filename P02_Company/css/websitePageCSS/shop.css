@@ -39,8 +39,23 @@
     margin: 0 2rem;
 }
 
+#filter a {
+        text-decoration: none;
+}
+
 @media screen and (orientation: portrait) {
     .product-listing {
         width: 50%;
+    }
+    
+    #filter ul{
+        display: block;
+    }
+    
+    #filter li{
+        display: block;
+        clear: both;
+        float: left;
+        margin-bottom: 1rem;
     }
 }
