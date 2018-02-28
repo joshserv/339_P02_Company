@@ -12,12 +12,16 @@
 
 /*WEBSITE PAGES*/
 
-@import url("websitePageCSS/item-page.css");
-@import url("websitePageCSS/payment.css");
+
 @import url("websitePageCSS/contact.css");
 @import url("websitePageCSS/shop.css");
 @import url("websitePageCSS/story.css");
 @import url("websitePageCSS/cart.css");
+@import url("websitePageCSS/item-page.css");
+@import url("websitePageCSS/payment.css");
+@import url("websitePageCSS/confirmation-page.css");
+@import url("websitePageCSS/shipping-info.css");
+@import url("websitePageCSS/continue-shopping.css");
 
 /*WEBSITE BUILDING BLOCKS*/
 
