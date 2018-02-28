@@ -107,7 +107,7 @@ a {
 }
 
 a:hover {
-    text-decoration: line-through;
+    color: #999;
 }
 
 .simple-cta {

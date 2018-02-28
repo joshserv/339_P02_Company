@@ -44,8 +44,13 @@
     .flex-container {
         flex-direction: column;
     }
+    
+    #featured-products{
+        height: auto;
+    }
 
     #featured-products div {
         width: 100%;
+        height: auto;
     }
 }
