@@ -59,6 +59,14 @@ footer:after {
     margin-bottom: 0;
     display: inline-block;
     float: right;
+    margin-left: 3rem;
+}
+
+#hamburger {
+    display: none;
+    height: 1.2rem;
+    float: right;
+    margin-left: 3rem;
 }
 
 #cart {
@@ -69,4 +77,22 @@ footer:after {
     height: 90vh;
     width: 100%;
     object-fit: cover;
+}
+
+@media only screen and (max-width: 900px) {
+    #hamburger{
+        display:block !important;
+    }
+    
+    #main-nav ul {
+        clear: both;
+        float: left;
+        padding-top: 2rem;
+    }
+    
+    #main-nav li {
+        display: block;
+        margin-left: 2rem;
+        margin-bottom: 1rem;
+    }
 }
