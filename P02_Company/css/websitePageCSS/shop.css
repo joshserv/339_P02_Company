@@ -19,11 +19,28 @@
     padding: 1rem;
 }
 
+.product-listing img {
+    border: solid 1px;
+    border-color: rgb(240, 240, 240);
+}
+
 .product-listing figcaption {
+    text-align: center;
+    font-weight: 600;
+}
+
+.product-listing a {
+    text-decoration: none;
+}
+
+
+#filter-section {
     text-align: center;
 }
 
 #filter {
+    border-bottom: solid 1px;
+    border-color: rgb(240, 240, 240);
     display: inline-block;
     margin: 0 auto;
     width: 30rem;
@@ -40,19 +57,19 @@
 }
 
 #filter a {
-        text-decoration: none;
+    text-decoration: none;
 }
 
 @media screen and (orientation: portrait) {
     .product-listing {
         width: 50%;
     }
-    
-    #filter ul{
+
+    #filter ul {
         display: block;
     }
-    
-    #filter li{
+
+    #filter li {
         display: block;
         clear: both;
         float: left;

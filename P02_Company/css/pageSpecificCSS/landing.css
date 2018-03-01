@@ -1,10 +1,10 @@
-#landing{
+#landing {
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
 }
 
-#landingBG{
+#landingBG {
     z-index: -1;
     position: absolute;
     height: 100%;
@@ -12,19 +12,19 @@
     width: 100%;
 }
 
-#landingLogo{
+#landingLogo {
     text-align: center;
 }
 
-#landing h1{
+#landing h1 {
     margin-bottom: 0;
 }
 
-#landing h2{
+#landing h2 {
     margin-bottom: 4rem;
 }
 
-#introduction{
+#introduction {
     height: 100vh;
     padding: 5rem;
     display: inline-flex;
@@ -35,8 +35,57 @@
 #introduction img {
     width: 17rem;
     margin-bottom: 2rem;
+    -webkit-filter: brightness(50%);
+    -moz-filter: brightness(50%);
+    filter: url(#brightness);
+    /* required for FF */
+    filter: brightness(50%);
 }
 
-#introduction p{
+#introduction p {
     max-width: 40rem;
+}
+
+.landing-top-image img {
+    -webkit-filter: brightness(70%);
+    -moz-filter: brightness(70%);
+    filter: url(#brightness);
+    /* required for FF */
+    filter: brightness(70%);
+}
+
+.landing-top-image h2 {
+    color: white;
+    position: absolute;
+    text-align: center;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.landing-top-image button {
+    border: solid 2px white;
+    background: none;
+    z-index: 100;
+    position: absolute;
+    top: 62%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.landing-top-image button:hover {
+    border-color: black;
+    background: black;
+
+}
+
+.flex-item-66 h2 {
+    color: white;
+    padding-left: 0.3em;
+    font-size: 4em;
+    font-weight: 600;
+    position: absolute;
+    text-align: center;
 }

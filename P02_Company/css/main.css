@@ -12,7 +12,6 @@
 
 /*WEBSITE PAGES*/
 
-
 @import url("websitePageCSS/contact.css");
 @import url("websitePageCSS/shop.css");
 @import url("websitePageCSS/story.css");
@@ -33,7 +32,9 @@
 
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700');
 /*@import url('https://fonts.googleapis.com/css?family=Playfair+Display');*/
+
 /*@import url('https://fonts.googleapis.com/css?family=Lora');*/
+
 @import url('https://fonts.googleapis.com/css?family=Cormorant+Garamond:300,700');
 @font-face {
     font-family: Source Sans Pro;
@@ -53,7 +54,7 @@
 body {
     background-color: white;
     margin: 0;
-    padding: 2rem 5rem;
+    padding: 2rem 10rem;
     font-family: Source Sans Pro;
 }
 
@@ -78,7 +79,7 @@ h1 {
 
 h2 {
     font-size: 2rem;
-    font-weight: 400;
+    font-weight: 600;
 }
 
 h3 {
@@ -96,10 +97,20 @@ p {
     max-width: 40rem;
 }
 
+#top-heading {
+    margin-top: 1em;
+    margin-bottom: none;
+    text-align: center;
+}
+
 .feature-information {
     margin: 0 auto;
     max-width: 40rem;
     padding: 10rem 0;
+}
+
+.feature-information p {
+    margin-bottom: 1rem;
 }
 
 a {
@@ -108,9 +119,12 @@ a {
 
 a:hover {
     color: #999;
+    -webkit-transition: color 0.5s;
+    transition: color 0.3s;
 }
 
 .simple-cta {
+    color: cadetblue;
     margin: 5rem 0;
 }
 
@@ -168,7 +182,7 @@ button {
 button:hover {
     -webkit-transition: background-color 0.5s;
     transition: background-color 0.5s;
-    background-color: lightgray;
+    background-color: rgb(100, 100, 100);
 }
 
 /*------------ GRID-------------*/
@@ -230,7 +244,7 @@ button:hover {
 
 
 
-@media only screen and (max-width: 600px){
+@media only screen and (max-width: 600px) {
     body {
         padding: 2rem 2rem;
     }

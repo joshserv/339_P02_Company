@@ -17,9 +17,11 @@
     flex-direction: column;
 }
 
+/*
 #featured-products {
     height: 150vh;
 }
+*/
 
 #featured-products:after {
     content: " ";
