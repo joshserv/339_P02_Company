@@ -1,12 +1,12 @@
 /*------------ FOOTER-------------*/
 
 footer div {
-    width: 50%;
-    float: left;
+    margin: 0 auto;
+    text-align: center;
 }
 
 footer {
-    padding: 10rem 0rem 5rem 0rem;
+    margin: 10rem 0rem 0rem 0rem;
 }
 
 #instagram img {
@@ -16,8 +16,35 @@ footer {
     float: left;
 }
 
+#subscription-cta p {
+    max-width: 100%;
+    margin: 0;
+    text-align: center;
+}
+
+#subscription-cta input {
+    height: 3em;
+    width: 20%;
+}
+
+#subscription-cta button {
+    padding: 1em 1em;
+}
+
+
 @media screen and (orientation: portrait) {
     footer div {
         width: 100%;
     }
+    #subscription-cta input {
+        height: 3em;
+        width: 100%;
+    }
+    #subscription-cta button {
+        margin: 0 auto;
+        max-width: 100%;
+        text-align: center;
+        display: block;
+    }
+
 }

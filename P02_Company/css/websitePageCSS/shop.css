@@ -16,6 +16,7 @@
     width: 33.3%;
     float: left;
     margin: 0;
+    margin-bottom: 5em;
     padding: 1rem;
 }
 
@@ -33,26 +34,19 @@
     text-decoration: none;
 }
 
-.product-suggestion-container {
-    border-top: solid 1px black;
-    text-align: center;
-    margin: 0 auto;
+.product-listing a:hover {
+
+
+    -webkit-filter: brightness(90%);
+    -moz-filter: brightness(90%);
+    filter: url(#brightness);
+    /* required for FF */
+    filter: brightness(90%);
+
+    -webkit-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out
 }
 
-.product-suggestion-container h3 {
-    margin: 0em;
-}
-
-.product-suggestion {
-    display: inline-block;
-    width: 20%;
-    margin: 0em auto;
-    padding: 0rem 2rem;
-}
-
-.product-suggestion img {
-    padding: 0em;
-}
 
 
 #filter-section {
@@ -83,7 +77,7 @@
 
 @media screen and (orientation: portrait) {
     .product-listing {
-        width: 50%;
+        width: 100%;
     }
 
     #filter ul {
