@@ -180,9 +180,10 @@ button {
 }
 
 button:hover {
+    text-decoration: none;
     -webkit-transition: background-color 0.5s;
     transition: background-color 0.5s;
-    background-color: rgb(100, 100, 100);
+    background-color: lightgray;
 }
 
 /*------------ GRID-------------*/

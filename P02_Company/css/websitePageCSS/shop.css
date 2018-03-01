@@ -33,6 +33,27 @@
     text-decoration: none;
 }
 
+.product-suggestion-container {
+    border-top: solid 1px black;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.product-suggestion-container h3 {
+    margin: 0em;
+}
+
+.product-suggestion {
+    display: inline-block;
+    width: 20%;
+    margin: 0em auto;
+    padding: 0rem 2rem;
+}
+
+.product-suggestion img {
+    padding: 0em;
+}
+
 
 #filter-section {
     text-align: center;
