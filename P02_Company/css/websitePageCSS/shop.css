@@ -3,7 +3,7 @@
 #product-listings {
     display: flex;
     flex-wrap: wrap;
-    float: left;
+/*    float: left;*/
 }
 
 #product-listings:after {

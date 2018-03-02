@@ -121,11 +121,13 @@ a {
     color: black;
 }
 
+/*
 a:hover {
     color: #999;
     -webkit-transition: color 0.5s;
     transition: color 0.3s;
 }
+*/
 
 .simple-cta {
     color: cadetblue;
