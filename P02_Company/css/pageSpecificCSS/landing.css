@@ -89,3 +89,10 @@
     position: absolute;
     text-align: center;
 }
+
+@media only screen and (max-width: 600px) {
+    .landing-top-image button {
+        margin-top: 5em;
+    }
+
+}

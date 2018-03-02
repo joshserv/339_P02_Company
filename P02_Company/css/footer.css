@@ -6,14 +6,14 @@ footer div {
 }
 
 footer {
-    margin: 10rem 0rem 0rem 0rem;
-}
+    position: relative;
+    border-top: solid 1px;
+    border-color: rgb(240, 240, 240);
+    bottom: 0;
+    margin: 5rem 0rem 0rem 0rem;
+    width: 100%;
+    left: 0;
 
-#instagram img {
-    width: 50%;
-    height: 10rem;
-    object-fit: cover;
-    float: left;
 }
 
 #subscription-cta p {

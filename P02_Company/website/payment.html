@@ -28,47 +28,33 @@
             </ul>
         </nav>
     </header>
-    <h2 id="checkout-heading">Checkout</h2>
 
-    <div class="checkout-container">
-        <div class="payment-info">
-            <h3>CONTACT INFORMATION</h3>
-            <form class="text-field">
-                <p> <label class="text-field-item">First Name</label>
-                    <input class="text-field-input" name="first" type="text" placeholder="John"></p>
+    <h2 id="top-heading"> CART</h2>
 
-                <p><label>Last Name</label>
-                    <input class="text-field-input" name="last" type="text" placeholder="Doe"></p>
 
-                <p><label>Address</label>
-                    <input class="text-field-input" name="address" type="text"></p>
+    <div class="cart-container">
 
-                <p><label>City</label>
-                    <input class="text-field-input" name="city" type="text"></p>
-
-                <p><label>Province</label>
-                    <input class="text-field-input" name="province" type="text"></p>
-
-                <p><label>Postal Code</label>
-                    <input class="text-field-input" name="postal" type="text"></p>
-                <p><label>Phone Number</label>
-                    <input class="text-field-input" name="phone" type="text"></p>
-            </form>
+        <div class="cart-product-image">
+            <h3 id="cart-sub-header">Products</h3>
+            <img src="../assets/catalogue-images/optical/set3/optical-set-3.0.jpg" alt="Ogle Optical Glasses 001" />
         </div>
-        <div class="order-summary">
-            <h3> SUMMARY</h3>
-            <div id="product-overview">
-                <img src="../assets/catalogue-images/optical/set3/optical-set-3.0.jpg" alt="Ogle Optical Glasses 001" />
-                <h4> OPTICAL 002 <br> $125.00 </h4>
+        <div class="cart-product-desctiption">
+            <h3> Optical 001</h3>
+            <h4> $125.00 CAD</h4>
+            <form action="/action_page.php">
+                Quantity:
+                <input type="number" name="quantity" min="1" max="5" placeholder="1">
+            </form>
 
-                <h3> SUBTOTAL</h3>
-                <h4> $125.00</h4>
-
-            </div>
-            <a href="shipping-info.html">CONTINUE</a>
-            <!--            <div id="product-price"-->
+        </div>
+        <div class="cart-overview">
+            <h3 id="cart-sub-header">SUB TOTAL </h3>
+            <h4>$125.00 CAD</h4>
+            <p> Orders will proceed in CAD.</p>
+            <a href="shipping-info.html"><button type="submit" value="Submit">CHECKOUT</button></a>
         </div>
     </div>
+
 
     <footer>
         <div id="subscription-cta">
