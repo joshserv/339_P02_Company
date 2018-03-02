@@ -94,5 +94,8 @@
     .landing-top-image button {
         margin-top: 5em;
     }
+    .landing-top-image {
+        padding: 0em;
+    }
 
 }

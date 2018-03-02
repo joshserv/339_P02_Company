@@ -3,7 +3,8 @@
 #product-listings {
     display: flex;
     flex-wrap: wrap;
-/*    float: left;*/
+    text-align: center;
+    /*    float: left;*/
 }
 
 #product-listings:after {
@@ -14,7 +15,6 @@
 
 .product-listing {
     width: 33.3%;
-    float: left;
     margin: 0;
     margin-bottom: 1em;
     padding: 1rem;
@@ -58,7 +58,7 @@
     border-color: rgb(240, 240, 240);
     display: inline-block;
     margin: 0 auto;
-    width: 30rem;
+    width: 100%;
 }
 
 #filter ul {
@@ -76,9 +76,13 @@
 }
 
 @media screen and (orientation: portrait) {
+    #product-listing {
+        width: 100%;
+    }
     .product-listing {
         width: 100%;
     }
+
 
     #filter ul {
         display: block;

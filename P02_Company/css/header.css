@@ -93,7 +93,7 @@ footer:after {
 
     #main-nav li {
         display: block;
-        margin-left: 2rem;
+        margin-left: 0rem;
         margin-bottom: 1rem;
     }
 }
