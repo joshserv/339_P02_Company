@@ -76,8 +76,9 @@
 }
 
 .landing-top-image button:hover {
-    border-color: black;
-    background: black;
+    border-color: white;
+    background: white;
+    color: black;
 
 }
 

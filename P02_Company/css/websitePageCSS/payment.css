@@ -16,7 +16,7 @@
     margin-bottom: 0em;
 }
 
-#cart-sub-header {
+.cart-sub-header {
     border-bottom: solid 2px;
     border-color: rgb(240, 240, 240);
     padding-bottom: 1em

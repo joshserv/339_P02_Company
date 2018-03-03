@@ -1,9 +1,14 @@
 /*----------------------CITATIONS----------------------*/
 
-#citations{
+#citations {
     padding: 5rem;
 }
 
-#citations li{
+#citations ul {
+    font-weight: 100;
+}
+
+#citations li {
     margin-bottom: 2rem;
+    font-weight: 100;
 }
