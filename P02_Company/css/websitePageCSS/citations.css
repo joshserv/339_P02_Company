@@ -1,0 +1,8 @@
+.web-citations ul {
+    list-style: disc;
+}
+
+.web-citations li {
+    list-style: disc;
+    padding-bottom: 1em;
+}
