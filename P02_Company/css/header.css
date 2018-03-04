@@ -49,10 +49,16 @@ footer:after {
     font-weight: 300;
     letter-spacing: 0.05rem;
     border-bottom: none;
+    color: rgb(20, 20, 20);
 }
 
 #main-nav a:hover {
     border-bottom: 1px solid;
+}
+
+#current-page a {
+    font-weight: 500;
+    color: black;
 }
 
 #cart-item {
