@@ -42,11 +42,11 @@ footer:after {
 }
 
 #main-nav a {
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Source Sans Pro', sans-serif;
     text-transform: uppercase;
     text-decoration: none;
     font-size: 0.9rem;
-    font-weight: 300;
+    font-weight: 100;
     letter-spacing: 0.05rem;
     border-bottom: none;
     color: rgb(20, 20, 20);
@@ -60,7 +60,6 @@ footer:after {
     font-weight: 500;
     color: black;
 }
-
 #cart-item {
     margin-bottom: 0;
     display: inline-block;

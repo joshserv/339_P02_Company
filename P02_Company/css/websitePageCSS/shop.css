@@ -72,15 +72,24 @@
 }
 
 #filter li {
+
     float: left;
     margin: 0 2rem;
+    font-weight: 100;
 }
 
 #filter a {
+    color: rgb(100, 100, 100);
+
     text-decoration: none;
 }
 
-
+#current-filter a {
+    color: black;
+    padding-bottom: 2px;
+    border-width: 0 0 1px;
+    border-style: solid;
+}
 
 @media screen and (orientation: portrait) {
     #product-listing {
