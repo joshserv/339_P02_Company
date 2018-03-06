@@ -24,6 +24,7 @@ footer:after {
 }
 
 #main-logo {
+    z-index: 100;
     width: 5rem;
     float: left;
 }
@@ -42,6 +43,7 @@ footer:after {
 }
 
 #main-nav a {
+    z-index: 100;
     font-family: 'Source Sans Pro', sans-serif;
     text-transform: uppercase;
     text-decoration: none;
@@ -60,6 +62,7 @@ footer:after {
     font-weight: 500;
     color: black;
 }
+
 #cart-item {
     margin-bottom: 0;
     display: inline-block;

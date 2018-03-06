@@ -1,0 +1,483 @@
+@font-face {
+    font-family: Source Sans;
+    src: url("css/fonts/Source-Sans-Pro.otf");
+}
+
+* {
+    box-sizing: border-box;
+}
+
+
+
+/*
+  STYLE GUIDE STYLING 
+  Default styling for the style guide 
+*/
+
+.flt-left {
+
+    margin-top: 1em;
+    margin-right: 10em;
+
+}
+
+section code {
+    background-color: rgb(230, 230, 230);
+    padding: 0.5em 0.75em;
+    margin: 0.5em 0;
+    display: block;
+}
+
+.styleguide-section {
+    border-bottom: solid 1px gray;
+    margin: 2em 0;
+    padding-bottom: 1em;
+}
+
+ul {
+    list-style-type: none;
+    margin-top: 0em;
+    padding-left: 0em;
+    padding-top: 0em;
+}
+
+/*
+SIDE MENNU
+RETRIEVED FROM (AARON LEGASPI)
+*/
+
+#aside-logo {
+    width: 10rem;
+    height: auto;
+    margin-bottom: 0rem;
+}
+
+
+nav section {
+    margin-bottom: 2rem;
+    width: auto;
+}
+
+.nav-main {
+    padding: 1em;
+}
+
+.nav-main ul {
+    padding-left: 0em;
+    list-style-type: none;
+}
+
+.nav-main a {
+    font-family: 'Source Sans Pro', sans-serif;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 0.9rem;
+    font-weight: 100;
+    letter-spacing: 0.05rem;
+    border-bottom: none;
+    color: rgb(20, 20, 20);
+}
+
+.nav-main a:hover {
+    border-bottom: 1px solid;
+}
+
+/*
+NAV INTERACTION-------------
+RETRIEVED FROM (https://codepen.io/martinwolf/pen/eNNdme )
+*/
+
+.nav-main-heading {
+    margin-bottom: 0.5em;
+    margin-top: 2em;
+    font-weight: 200
+}
+
+
+
+
+.nav-main-demo {
+    font-family: 'Source Sans Pro', sans-serif;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 0.9rem;
+    font-weight: 100;
+    letter-spacing: 0.05rem;
+    border-bottom: none;
+    color: rgb(20, 20, 20);
+    text-decoration: none;
+}
+
+.nav-main-rendered li {
+    display: inline-block;
+}
+
+.nav-main-item {
+    font-family: 'Source Sans Pro', sans-serif;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 1.1rem;
+    font-weight: 100;
+    letter-spacing: 0.05rem;
+    border-bottom: none;
+    color: rgb(20, 20, 20);
+    margin-right: 3em;
+    ;
+}
+
+.nav-main-item:hover {
+    border-bottom: 1px solid;
+}
+
+.nav-main-demo:hover {
+    border-bottom: 1px solid;
+}
+
+.nav-main-example {
+    padding-bottom: 1em;
+    margin-bottom: 0em;
+    margin-top: 0em;
+    font-weight: 200
+}
+
+
+
+/* 
+  -------------------INTERACTIVE ELEMENTS -------------------
+*/
+
+/* 
+ IN-TEXT LINKE ------------------
+*/
+
+#intext-link {
+    color: rgb(168, 178, 168);
+    ;
+    text-decoration: none;
+}
+
+#intext-link:hover {
+    text-decoration: line-through;
+    text-decoration-color: rgb(124, 137, 124);
+}
+
+#intext-link:focus,
+#intext-link:active {
+    text-decoration: line-through;
+    color: rgb(124, 137, 124);
+}
+
+
+/*RETRIEVED FROM (https://www.w3schools.com/w3css/w3css_input.asp)*/
+
+::placeholder {
+    color: lightgray;
+    font-style: italic
+}
+
+
+.text-field-input {
+    margin-top: 0.5em;
+    caret-color: rgb(124, 137, 124);
+    display: block;
+    padding-left: 1em;
+    width: 20em;
+    height: 2.5em;
+    font-size: 1em;
+    border-color: black;
+    border-width: 1px;
+    line-height: 10em;
+}
+
+.text-field-input:focus,
+.text-field-input:active {
+    outline: none;
+}
+
+
+/* 
+   ------------------- TEXT ELEMENTS -------------------
+*/
+
+#header1 {
+    font-size: 2em;
+    margin-bottom: 0em;
+}
+
+/*
+BULET LIST ---------- 
+RETRIEVED FROM (https://codepen.io/davidelrizzo/pen/jIKAb)
+*/
+
+.featureList,
+.featureList ul {
+    margin-top: 1em;
+    margin-bottom: 2em;
+    padding-left: 2em;
+    list-style-type: none;
+}
+
+.featureList li {
+    margin-bottom: 1.5em;
+}
+
+.featureList li:before {
+    margin-bottom: 2em;
+    position: absolute;
+    margin-left: -1.3em;
+    font-weight: bold;
+}
+
+.featureList li.cross:before {
+    margin-bottom: 2em;
+    content: "\2717";
+    color: black;
+}
+
+/*
+ORDERED LIST---------------
+RETRIEVED FROM (https://codepen.io/yying6/pen/qzlop)
+*/
+
+.bg-ol-list {
+    font-family: Helvetica;
+    list-style: none;
+    color: rgb(168, 178, 168);
+    font-weight: 600;
+    font-size: 2em;
+}
+
+.bg-ol-list .bg-ol-item {
+
+    position: relative;
+    margin-bottom: 1em;
+}
+
+.bg-ol-item p {
+    width: 40%;
+    font-family: "Source Sans Pro";
+    color: black;
+    font-size: 0.5em;
+    font-weight: 100;
+    padding-left: 3em;
+}
+
+span {
+    position: absolute;
+    line-height: 25px;
+}
+
+/*PRODUCT LISTING ---------*/
+
+figure {
+    display: inline-block;
+    padding-right: 2em;
+    margin: 0;
+}
+
+figure img {
+    vertical-align: top;
+}
+
+figure figcaption {
+    padding-top: 0.2em;
+    padding-left: 1em;
+    text-align: left;
+
+}
+
+.product-img {
+    width: 20em;
+}
+
+.product-text {
+    width: 100%;
+    margin-left: 1em;
+    margin-bottom: 0em;
+    font-weight: 500;
+}
+
+.fig-sub {
+    padding: 0em;
+    margin-left: 1em;
+    margin-bottom: 0em;
+    font-weight: 100;
+}
+
+.fig-price {
+    margin-left: 1em;
+    margin-bottom: 0em;
+    font-weight: 400;
+}
+
+
+/*COLOR PALETTE--------------*/
+
+#color1 {
+    display: inline-block;
+    margin-right: 1em;
+    width: 10em;
+    height: 10em;
+    border-style: solid;
+    border-width: 1px;
+    border-color: black;
+    background-color: white;
+}
+
+#color1 p {
+    padding: 4em 3.3em;
+}
+
+#color2 {
+    display: inline-block;
+    margin-right: 1em;
+    width: 10em;
+    height: 10em;
+    background-color: rgb(95, 158, 160);
+}
+
+#color2 p {
+    padding: 4em 3.3em;
+}
+
+#color3 {
+    display: inline-block;
+    margin-right: 1em;
+    width: 10em;
+    height: 10em;
+    background-color: rgb(168, 178, 168);
+}
+
+#color3 p {
+    padding: 4em 3.3em;
+}
+
+
+#color4 {
+    display: inline-block;
+    margin-right: 1em;
+    width: 10em;
+    height: 10em;
+    background-color: black;
+}
+
+#color4 p {
+    color: white;
+    padding: 4em 3.3em;
+}
+
+/*
+Grid Structure---------------
+*/
+
+.grid-1of2 {
+    display: inline-block;
+    width: 49.8%;
+    border-style: solid;
+    border-width: 1.5em;
+    border-color: rgb(230, 230, 230);
+    height: 10em;
+    background-color: white;
+    text-align: center;
+}
+
+.grid-1of2 p {
+    font-family: Helvetica;
+    font-size: 2em;
+    font-weight: 600;
+    padding: 1em;
+    padding-left: 1.5em;
+}
+
+
+
+
+/*color: rgb(235,244,236)-----off white;*/
+
+/*color: rgb(168,178,168);-----dark teal
+/*color: rgb(124,137,124);-----darkest
+
+
+/* 
+   ------------------- COMBINED ELEMENTS -------------------
+*/
+
+.body-back {
+    background: rgb(235, 244, 236);
+}
+
+
+.home-nav {
+    margin-top: 10em;
+
+}
+
+
+.home-nav-item {
+    /*    text-align: center;*/
+}
+
+.home-nav {
+    text-align: center;
+    /*    letter-spacing: 0.3em;*/
+    margin-top: 0em;
+
+
+}
+
+.home-nav li {
+    display: inline-block;
+    margin-top: 2em;
+    font-size: 1em;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+.home-nav-item {
+    padding-left: 2em;
+    font-weight: 400;
+    text-decoration: none;
+    color: black;
+}
+
+
+.home-nav-item:hover {
+    text-decoration: line-through;
+}
+
+.home-logo {
+    width: 30%;
+    padding-top: 20em;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+.content-container {
+    width: 80%;
+    min-height: 90vh;
+    padding-left: 15rem;
+}
+
+.content {
+    width: 100%;
+    min-height: 90vh;
+    padding-bottom: 5em;
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+
+}
+
+.footer p {
+    width: 100%;
+    text-align: center;
+    color: rgb(168, 178, 168);
+    ;
+}

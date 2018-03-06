@@ -27,6 +27,7 @@
 @import url("header.css");
 @import url("flex.css");
 @import url("footer.css");
+@import url("styleguide.css");
 
 /*FONTS*/
 
@@ -59,7 +60,15 @@ body {
     font-family: 'Source Sans Pro', sans-serif;
 }
 
-h1,
+h1 {
+    font-family: 'Cormorant Garamond', Chronicle;
+    font-weight: 700;
+    font-size: 3em;
+    margin-top: 0;
+    letter-spacing: 0.1rem;
+    text-transform: none;
+}
+
 h2 {
     font-family: 'Cormorant Garamond', Chronicle;
     font-weight: 700;
@@ -167,16 +176,19 @@ img {
 
 aside {
     height: 100vh;
-    padding: 2rem;
-    background-color: white;
-    width: 16rem;
+    padding-top: 7rem;
+    padding-left: 6rem;
+    /*    background-color: white;*/
+    width: 30rem;
     position: fixed;
     z-index: 1;
     top: 0;
     left: 0;
+    /*
     -webkit-box-shadow: 6px 0px 20px -8px rgba(0, 0, 0, 0.75);
     -moz-box-shadow: 6px 0px 20px -8px rgba(0, 0, 0, 0.75);
     box-shadow: 6px 0px 20px -8px rgba(0, 0, 0, 0.75);
+*/
 }
 
 button {

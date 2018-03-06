@@ -1,0 +1,335 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OGLE</title>
+
+    <link rel="stylesheet" href="../css/main.css">
+    <link rel="shortcut icon" type="image/png" href="../assets/img/ogle-favicon.png" />
+</head>
+
+<body>
+
+
+    <header>
+        <a href="index.html">
+            <img id="main-logo" src="../assets/img/ogle-logo-full-dark.png" alt="Ogle Logo">
+        </a>
+
+        <nav id="main-nav">
+            <img src="../assets/img/hamburger.png" alt="Hamburger Menu Icon" id="hamburger" class="hidden" />
+            <a href="cart.html" id="cart-item"><img src="../assets/img/shopping-cart.png" alt="Shopping Cart" id="cart"/></a>
+            <ul>
+                <li><a href="shop-new.html"> Shop </a></li>
+                <li><a href="lookbook.html"> Lookbook </a></li>
+                <li id="current-page"><a href="our-story.html"> Our Story </a></li>
+                <li><a href="contact.html"> Contact </a></li>
+            </ul>
+        </nav>
+    </header>
+
+
+    <aside>
+
+        <nav class="nav-main">
+            <h3 class="nav-main-heading"> PRIMARY ELEMENTS </h3>
+            <ul>
+                <li> <a href="#our_value"> Our Values </a> </li>
+                <li> <a href="#interactive_elements">Interactive Elements</a> </li>
+                <li><a href="#text_elements">Text Elements</a> </li>
+            </ul>
+            <h3 class="nav-main-heading"> SECONDARY ELEMENTS </h3>
+            <ul>
+                <li><a href="#combined_elements">Combined Elements</a> </li>
+            </ul>
+        </nav>
+    </aside>
+
+
+
+
+    <!-- INTERACTIVE ELEMENTS SECTION // -->
+    <div class="content-container">
+        <div class="content">
+
+            <h1>Style Guide</h1>
+            <section id="interactive_elements">
+
+                <!-- Default Button styling section -->
+                <section class="styleguide-section">
+
+                    <h2>Navigation Button</h2>
+
+                    <h3>CSS selector:</h3>
+                    <p>.main-nav</p>
+
+                    <h3>Sample code:</h3>
+                    <code>&lt;a href="#" class="button"&gt;Default Button&lt;/a&gt;</code>
+
+                    <h3>Rendered element:</h3>
+                    <a class="nav-main-demo" href="#">Default Button</a>
+
+                </section>
+
+                <section class="styleguide-section">
+
+                    <h2>In-text link</h2>
+
+                    <h3>CSS selector:</h3>
+                    <p>#intext-link</p>
+
+                    <h3>Sample code:</h3>
+                    <code>&lt;a href="#" id="intext-link"&gt; New Arrivals &lt;/a&gt;</code>
+
+                    <h3>Rendered element:</h3>
+                    <p> Check out our <a href="" id="intext-link"> New Arrivals</a>, for whats new. </p>
+
+                </section>
+
+                <section class="styleguide-section">
+
+                    <h2>Submit Buttons</h2>
+
+                    <h3>CSS selector:</h3>
+                    <ul>
+                        <li>.subscription-cta</li>
+                    </ul>
+
+
+                    <h3>Sample code:</h3>
+                    <code>&lt;a href="#" class="submit-link"&gt; Submit &lt;/a&gt;</code>
+
+                    <h3 class="btn"> Rendered element:</h3>
+                    <button type="submit" value="submit" href=""> SUBMIT </button>
+
+                </section>
+
+                <section class="styleguide-section">
+
+                    <h2>Text Input Field</h2>
+
+                    <h3>CSS selector:</h3>
+                    <ul>
+                        <li>.text-field</li>
+                        <li>.text-field-item</li>
+                        <li>.text-field-input</li>
+                    </ul>
+
+                    <h3>Sample code:</h3>
+                    <code>&lt;form class="text-field"&gt;</code>
+                    <code>&lt;p&gt; &lt;label class="text-field-item"t&gt; First Name &lt;/label&gt;</code>
+                    <code>&lt;input class="text-field-input" name="first" type"text" plaecholder="John"&gt;&lt;/p&gt;</code>
+                    <!--                    https://www.w3schools.com/w3css/w3css_input.asp -->
+                    <h3>Rendered element:</h3>
+                    <form class="text-field">
+                        <p> <label class="text-field-item">First Name</label>
+                            <input class="text-field-input" name="first" type="text" placeholder="John"></p>
+
+                        <p><label>Last Name</label>
+                            <input class="text-field-input" name="last" type="text" placeholder="Doe"></p>
+                    </form>
+                </section>
+
+            </section>
+            <!-- // INTERACTIVE ELEMENTS SECTION -->
+
+
+
+            <!-- TEXT ELEMENTS SECTION // -->
+            <section id="text_elements">
+
+                <section class="styleguide-section">
+
+                    <h2>Headings</h2>
+                    <h3>CSS selector:</h3>
+                    .header1
+
+                    <h3>Sample code:</h3>
+                    <code>&lt;h2 id="header1&gt; HEADING LEVEL 01 &lt;/h2&gt;</code>
+                    <code>&lt;h2&gt; Heading Level 02 &lt;/h2&gt;</code>
+                    <code>&lt;h3&gt; Heading Level 02 &lt;/h3&gt;</code>
+
+                    <h2 id="header1"> HEADING LEVEL ONE</h2>
+                    <h2> Heading Level TWO</h2>
+                    <h3> Heading Level THREE</h3>
+                </section>
+
+                <section class="styleguide-section">
+
+
+                    <h2>Paragraphs</h2>
+                    <h3>CSS selector:</h3>
+                    <p> n/a</p>
+                    <h3>Sample code:</h3>
+                    <code>&lt;p&gt; Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.... &lt;/p&gt; </code>
+
+                    <h3>Rendered element:</h3>
+                    <p class="flt-left">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+                    <p class="flt-left">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
+                </section>
+
+                <section class="styleguide-section">
+
+                    <h2>Bulleted Lists</h2>
+                    <h3>CSS selector:</h3>
+                    <ul>
+                        <li>.featureList</li>
+                        <li>.cross</li>
+                    </ul>
+
+                    <h3>Sample code:</h3>
+                    <code>&lt;div class="item-info&gt;</code>
+                    <code>&lt;ul&gt;&lt;li;&gt; Product 001 &lt;/li&gt;&lt;/ul&gt;</code>
+                    <h3>Rendered element:</h3>
+                    <!--                    RETRIEVED FROM (https://codepen.io/davidelrizzo/pen/jIKAb)-->
+                    <div class="item-info">
+                        <ul>
+                            <li> Product OO1 </li>
+                            <li> Product OO2 </li>
+                            <li> Product OO3 </li>
+                            <li> Product OO4 </li>
+                        </ul>
+                    </div>
+                </section>
+
+                <section class="styleguide-section">
+
+                    <h2>Numbered Lists</h2>
+                    <h3>CSS selector:</h3>
+                    <ul>
+                        <li>.bg-ol-list</li>
+                        <li>bg-ol-item</li>
+                    </ul>
+
+
+                    <h3>Sample code:</h3>
+                    <code>&lt;ol class="bg-ol-list"&gt;</code>
+                    <code>&lt;li class="bg-ol-item&gt;&lt;span&gt; 01 &lt;/span&gt;</code>
+                    <code>&lt;p&gt;In locavore voluptate assumenda. Non raw denim sapiente aute small batch fap. Raw denim cliche lo-fi umami cray incididunt sunt before they sold out...&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;</code>
+
+                    <h3>Rendered element:</h3>
+                    <!--                    RETRIEVED FROM (https://codepen.io/yying6/pen/qzlop)-->
+                    <ol class="bg-ol-list">
+                        <li class="bg-ol-item"><span>01</span>
+                            <p>In locavore voluptate assumenda. Non raw denim sapiente aute small batch fap. Raw denim cliche lo-fi umami cray incididunt sunt before they sold out...</p>
+                        </li>
+                        <li class="bg-ol-item"><span>02</span>
+                            <p>In locavore voluptate assumenda. Non raw denim sapiente aute small batch fap. Raw denim cliche lo-fi umami cray incididunt sunt before they sold out...</p>
+                        </li>
+                        <li class="bg-ol-item"><span>03</span>
+                            <p>In locavore voluptate assumenda. Non raw denim sapiente aute small batch fap. Raw denim cliche lo-fi umami cray incididunt sunt before they sold out...</p>
+                        </li>
+                    </ol>
+
+                </section>
+
+            </section>
+            <!-- // TEXT ELEMENTS SECTION -->
+
+
+
+            <!-- COMBINED ELEMENTS SECTION // -->
+            <section id="combined_elements">
+
+                <section class="styleguide-section">
+
+                    <h2>Main Navigation</h2>
+                    <h3>CSS selector:</h3>
+                    <ul>
+                        <li>.nav-main</li>
+                        <li>.nav-main-heading</li>
+                        <li>.nav-main-item</li>
+                    </ul>
+
+                    <h3>Sample code:</h3>
+                    <code>&lt;nav class"main-nav"&gt;</code>
+                    <code>&lt;ul&gt;&lt;li&gt;&lt;a href="#combined_elements" class="nav-main-item"&gt;Shop&lt;a&gt;&lt;/li&gt;&lt;/ul&gt; </code>
+
+                    <h3>Rendered element:</h3>
+                    <nav class="nav-main-rendered">
+                        <ul>
+                            <li> <a href="#combined_elements" class="nav-main-item">SHOP</a> </li>
+                            <li><a href="#combined_elements" class="nav-main-item">LOOKBOOK</a> </li>
+                            <li><a href="#combined_elements" class="nav-main-item">OUR STORY</a> </li>
+                            <li><a href="#combined_elements" class="nav-main-item">CONTACT</a> </li>
+                            <li><a href="#combined_elements" class="nav-main-item">Contact</a> </li>
+                        </ul>
+                    </nav>
+                </section>
+
+                <section class="styleguide-section">
+
+
+                    <h2>Product Listing</h2>
+                    <h3>CSS selector:</h3>
+                    <ul>
+                        <li>.product-img</li>
+                        <li>.product-text</li>
+                        <li>.fig-sub</li>
+                        <li>.fig-price</li>
+                    </ul>
+
+                    <h3>Sample code:</h3>
+                    <code>&lt;figure class="product-listing"&gt;</code>
+                    <code>&lt;a href="item.html"&gt; </code>
+                    <code>&lt;img src="../assets/catalogue-images/sun/sun-set-7.0.jpg" alt="Ogle Sunglasses"&gt; </code>
+                    <code>&lt;/a&gt; </code>
+                    <code>&lt;figcaption&gt;&lt;a href="item.html"&gt; THEODORE &lt;/a&gt;&lt;a href="item.html"&gt; $275.00 &lt;/a&gt;&lt;/figcaption&gt;</code>
+
+
+                    <h3>Rendered element:</h3>
+
+                    <figure class="product-listing">
+                        <a href="#">
+                    <img src="../assets/catalogue-images/sun/sun-set-7.0.jpg" alt="Ogle Sun Glasses 006"/>
+                </a>
+                        <figcaption><a href="#">HOMER</a><a href="#" class="product-price">$425.00</a></figcaption>
+                    </figure>
+                    <figure class="product-listing">
+                        <a href="#">
+                    <img src="../assets/catalogue-images/sun/set2/sun-set-2.0.jpg" alt="Ogle Sun Glasses 002"/>
+                </a>
+                        <figcaption><a href="#">THEODORE</a><a href="#" class="product-price">$275.00</a></figcaption>
+                    </figure>
+                </section>
+                <section class="styleguide-section">
+
+                    <h2> Color Palette </h2>
+                    <div id="color1">
+                        <p>#ffffff</p>
+                    </div>
+                    <div id="color2">
+                        <p>#5F9EA0</p>
+                    </div>
+                    <div id="color4">
+                        <p>#000000</p>
+                    </div>
+                </section>
+
+                <section class="styleguide-section">
+
+                    <h2> Grid Structure</h2>
+
+                    <h3>Sample code:</h3>
+                    <code>&lt;div class="grid-1of4"&gt;</code>
+                    <code>&lt;p&gt;1/4&lt;/p&gt; &lt;/div&gt;</code>
+
+                    <h3>Rendered element:</h3>
+
+                    <div class="grid-1of2">
+                        <p>1/2</p>
+                    </div>
+                    <div class="grid-1of2">
+                        <p id="grid14">1/2</p>
+                    </div>
+                </section>
+            </section>
+            <!-- // COMBINED ELEMENTS SECTION -->
+        </div>
+    </div>
+
+</body>
+
+</html>
