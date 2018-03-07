@@ -56,7 +56,7 @@
 body {
     background-color: white;
     margin: 0;
-    padding: 2rem 10rem;
+    padding: 2rem 5rem;
     font-family: 'Source Sans Pro', sans-serif;
 }
 
@@ -119,11 +119,12 @@ p {
 .feature-information {
     margin: 0 auto;
     max-width: 40rem;
-    padding: 10rem 0;
+    padding: 10rem 1rem;
 }
 
 .feature-information p {
     margin-bottom: 1rem;
+    text-align: left;
 }
 
 a {
@@ -241,7 +242,7 @@ button:hover {
     min-height: 100vh;
 }
 
-/*------------ Visual TREATMENT CLASSES-------------*/
+/*------------ VISUAL TREATMENT CLASSES-------------*/
 
 .hidden {
     display: none;
@@ -258,9 +259,6 @@ button:hover {
     padding: 2rem;
     margin-top: 1rem;
 }
-
-
-
 
 
 @media only screen and (max-width: 600px) {

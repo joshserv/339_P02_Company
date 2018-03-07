@@ -1,3 +1,4 @@
+/*
 #landing {
     display: flex;
     flex-direction: column;
@@ -38,44 +39,62 @@
     -webkit-filter: brightness(50%);
     -moz-filter: brightness(50%);
     filter: url(#brightness);
-    /* required for FF */
+     required for FF 
     filter: brightness(50%);
 }
 
 #introduction p {
     max-width: 40rem;
 }
+*/
 
-.landing-top-image img {
+.landing-top-image {
+    height: 85vh;
+    width: 100%;
+    margin-bottom: 2rem;
+}
+
+.landing-top-image #hero{
     -webkit-filter: brightness(70%);
     -moz-filter: brightness(70%);
     filter: url(#brightness);
     /* required for FF */
     filter: brightness(70%);
+    height: 85vh !important;
+    border-top-left-radius: 15rem;
+}
+
+#og-logo {
+    height: 4rem;
+    margin-bottom: 1rem;
+}
+
+.landing-top-image div{
+    width: auto;
+    position: relative;
+    top: -50%;
+    transform: translate(0, -50%);
+    -ms-transform: translate(0, -50%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 2rem;
 }
 
 .landing-top-image h2 {
-    color: white;
-    position: absolute;
     text-align: center;
-    top: 55%;
-    left: 50%;
-    transform: translate(-50%, -50%);
 }
 
-.landing-top-image button {
+.landing-top-image .btn {
     border: solid 2px white;
-    background: none;
-    z-index: 100;
-    position: absolute;
-    top: 62%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
-    text-align: center;
+    padding: 1rem 3rem;
+    color: white;
+    text-decoration: none;
+    transition: 0.5s;
+    margin-top: 2rem;
 }
 
-.landing-top-image button:hover {
+.landing-top-image .btn:hover {
     border-color: white;
     background: white;
     color: black;
@@ -91,12 +110,10 @@
     text-align: center;
 }
 
+
 @media only screen and (max-width: 600px) {
-    .landing-top-image button {
-        margin-top: 5em;
-    }
     .landing-top-image {
-        padding: 0em;
+        padding: 1rem;
     }
 
 }
